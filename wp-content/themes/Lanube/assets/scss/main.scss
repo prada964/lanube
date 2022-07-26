@@ -1,7 +1,10 @@
+$url--font: '../fonts/';
+
+@import "fonts/Kumbh_Sans";
+@import "fonts/SourceCodePro";
+
 h1{
     color: gray;
+    font-family: 'SourceCodePro-Regular';
 }
 
-body{
-    background-color: red;
-}
