@@ -1,9 +1,249 @@
-h1 {
-  color: gray;
+/*Colors*/
+/* Fonts */
+@font-face {
+  font-family: "KumbhSans-Black";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Black.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-Bold";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Bold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-ExtraBold";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-ExtraBold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-ExtraLight";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-ExtraLight.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-Light";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Light.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-Medium";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Medium.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-Regular";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-SemiBold";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-SemiBold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KumbhSans-Thin";
+  src: url("../fonts/Kumbh_Sans/KumbhSans-Thin.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-Black";
+  src: url("../fonts/SourceCodePro/SourceCodePro-Black.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-BlackItalic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-BlackItalic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-Bold";
+  src: url("../fonts/SourceCodePro/SourceCodePro-Bold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-BoldItalic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-BoldItalic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-ExtraBold";
+  src: url("../fonts/SourceCodePro/SourceCodePro-ExtraBold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-ExtraBoldItalic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-ExtraBoldItalic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-ExtraLight";
+  src: url("../fonts/SourceCodePro/SourceCodePro-ExtraLight.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-ExtraLightItalic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-ExtraLightItalic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-Italic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-Italic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-Light";
+  src: url("../fonts/SourceCodePro/SourceCodePro-Light.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-LightItalic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-LightItalic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-Medium";
+  src: url("../fonts/SourceCodePro/SourceCodePro-Medium.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-MediumItalic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-MediumItalic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-Regular";
+  src: url("../fonts/SourceCodePro/SourceCodePro-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-SemiBold";
+  src: url("../fonts/SourceCodePro/SourceCodePro-SemiBold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceCodePro-SemiBoldItalic";
+  src: url("../fonts/SourceCodePro/SourceCodePro-SemiBoldItalic.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (max-width : 768px) {
+  .site-header .barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.site-header .barra-navegacion .logo a img {
+  width: 300px;
+}
+@media screen and (max-width : 768px) {
+  .site-header .barra-navegacion .logo a img {
+    width: 100px;
+  }
+}
+.site-header .barra-navegacion .menu-principal li {
+  margin-bottom: 3rem;
+}
+.site-header .barra-navegacion .menu-principal :last-of-type {
+  margin-bottom: 0;
+}
+.site-header .barra-navegacion .menu-principal a {
+  font-family: "KumbhSans-Medium";
+  color: #808080;
+  font-size: 2.6rem;
+  opacity: 0.5;
+}
+.site-header .barra-navegacion .menu-principal a:hover {
+  color: #5D5D5D;
+  scale: 1;
+  font-size: 3.2rem;
+  transition: all 0.2s;
+  opacity: 1;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
-  background-color: red;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-family: "KumbhSans-Regular";
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  /* 10px = 1rem*/
+}
+
+h1, h2, h3, h4 {
+  margin: 1rem 0;
+  line-height: 1rem 0;
+}
+
+h1 {
+  color: red;
+  font-family: "KumbhSans-Regular";
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 3.3rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+/*Globals*/
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */
