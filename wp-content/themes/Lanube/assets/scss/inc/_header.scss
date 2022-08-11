@@ -1,0 +1,45 @@
+.site-header{
+    .barra-navegacion{
+        @media #{$movil}{
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            a{
+               img{
+                width: 300px;
+                @media #{$movil}{
+                    width: 100px;
+                } 
+               }
+               
+            }
+        }
+        .menu-principal{
+            li{
+                margin-bottom: 3rem;
+                @media #{$movil}{
+                   
+                }
+            }:last-of-type{
+                margin-bottom: 0;
+            }
+            a{
+                font-family: $font-title-medium;
+                color:$light-grey;
+                font-size: 2.6rem;
+                opacity: .5;
+                &:hover{
+                    color: $dark-gray;
+                    scale: 1;
+                    font-size: 3.2rem;
+                    transition: all 0.2s;
+                    opacity: 1;
+                }
+            }
+            @media #{$movil}{ 
+                
+            }   
+        }
+    }
+}

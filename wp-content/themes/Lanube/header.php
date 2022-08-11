@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +7,18 @@
     <?php wp_head() ?>
 
 </head>
-
 <body>
     <header class="site-header">
-        <div class="contenedor">
+        <div class="container">
             <div class="barra-navegacion">
                 <div class="logo">
                     <a href="<?php echo esc_url(site_url('/')) ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Logo.png" alt="logo sitio">
+                    <?php $logo = get_field('logo','options'); ?>
+                    <?php if(!empty($logo)): ?>
+                        <img src="<?php echo esc_url($logo['url']) ?>" alt="<?php echo esc_attr($logo['alt']); ?>">
+                     <?php endif ?>   
                     </a>
-
-                </div>
+                 </div>
                 <?php
 
                 $args = array(
