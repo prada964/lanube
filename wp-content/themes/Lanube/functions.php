@@ -23,6 +23,17 @@ add_action('after_setup_theme', 'lanube_setup');
 //styles y scrips
 
 function lanube_styles_scripts(){
+
+    // Bootstrap icons
+    wp_enqueue_style('bootstrap_icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css', '4.6', false);
+        
+    // Bootstrap style
+    wp_enqueue_style('bootstrap_css','https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css', array(),'5.1.3');
+
+    
+    // Bootstrap scripts
+    wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/assets/bootstrap/js/bootstrap.min.js');
+
     wp_enqueue_style('normalize',get_template_directory_uri().'/assets/css/normalize.css',array(),'8.0.1 ');
 
     wp_enqueue_style('slicknavCSS',get_template_directory_uri().'/assets/css/slicknav.min.css',array(),'8.0.1 ');
