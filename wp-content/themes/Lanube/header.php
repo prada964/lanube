@@ -8,9 +8,10 @@
 
 </head>
 <body>
+   <div class="container-principal">
     <header class="site-header">
-        <div class="container">
-            <div class="barra-navegacion">
+        <div class="content-header">
+            <div class="navigation-bar">
                 <div class="logo">
                     <a href="<?php echo esc_url(site_url('/')) ?>">
                     <?php $logo = get_field('logo','options'); ?>
@@ -18,7 +19,9 @@
                         <img src="<?php echo esc_url($logo['url']) ?>" alt="<?php echo esc_attr($logo['alt']); ?>">
                      <?php endif ?>   
                     </a>
+                   
                  </div>
+                 
                 <?php
 
                 $args = array(
@@ -29,6 +32,12 @@
                 wp_nav_menu($args);
 
                 ?>
+            </div>
+            <?php $icons=get_field('redes_sociales','options') ?>
+            <div class="icon-networks-header">
+                <?php foreach($icons as $icon): ?>
+                     <a href="<?php echo $icon['url'] ?>"><?php echo $icon['icon'] ?></a>
+                 <?php endforeach; ?>   
             </div>
         </div>
     </header>
