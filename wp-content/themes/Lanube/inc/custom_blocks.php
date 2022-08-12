@@ -16,8 +16,6 @@ add_filter('block_categories', 'lanube_category', 10, 2);
 
 function register_acf_block_types()
 {
-
-
     acf_register_block_type(array(
         'name'              => 'Sliders',
         'title'             => __('Slider de iconos'),
@@ -28,8 +26,6 @@ function register_acf_block_types()
         'align' => 'full',
         'post_types' => array('post', 'page'),
     ));
-
-    
 }
 
 add_theme_support('align-wide');
@@ -38,4 +34,3 @@ add_theme_support('align-wide');
 if (function_exists('acf_register_block_type')) {
     add_action('acf/init', 'register_acf_block_types');
 }
-

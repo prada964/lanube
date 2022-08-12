@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div style="padding:3rem">
+    <div class="col-10 px-3">
         <h1>main</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed natus pariatur consectetur rem quo ex magni suscipit nam sunt at vero ipsa, quos eos? Labore rem libero quam natus pariatur?
         Deserunt, nulla. Corrupti, sit. Quis veniam hic cum magni doloremque atque, maiores iste aut voluptas dolorem nobis provident molestias nam explicabo facere vel sit architecto deserunt nulla error rem? Veritatis?
