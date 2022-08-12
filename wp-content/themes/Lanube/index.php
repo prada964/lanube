@@ -1,6 +1,6 @@
 
 
 <?php get_header(); ?>
-<h1>asdasdsadsadas</h1>
-
+<h1>as</h1>
+</div>
 <?php get_footer(); ?>
