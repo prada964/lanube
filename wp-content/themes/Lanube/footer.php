@@ -10,7 +10,7 @@ $logo_footer = get_field('logo_footer', 'options')
         <?php echo $contat ?>
     </div>
     <div class="social-networks-footer">
-        <h4>Síguenos</h4>
+        <h4>Síguenoss</h4>
         <div class="icons-social-networks-footer">
             <?php foreach ($icons as $icon) : ?>
                 <a href="<?php echo $icon['url'] ?>"><?php echo $icon['icon'] ?></a>
