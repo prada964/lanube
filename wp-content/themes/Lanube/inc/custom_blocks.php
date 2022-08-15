@@ -28,6 +28,16 @@ function register_acf_block_types()
         'align' => 'full',
         'post_types' => array('post', 'page'),
     ));
+    acf_register_block_type(array(
+        'name'              => 'title_a',
+        'title'             => __('Block - Titulos: A '),
+        'description'       => __('Podras crear un titulo'),
+        'render_template'   => 'templates/blocks/sliders/slider.php',
+        'category'          => VS_BLOCK_CATEGORY,
+        'icon'              => 'feedback',
+        'align' => 'full',
+        'post_types' => array('post', 'page'),
+    ));
 
     
 }
