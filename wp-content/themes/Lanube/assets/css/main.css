@@ -361,6 +361,9 @@ html {
 }
 
 body {
+<<<<<<< HEAD
+  background-color: blue;
+=======
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 2;
@@ -407,6 +410,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+>>>>>>> 70d4ceae78f51ee05ca1bb06f83c1b9882910d0d
 }
 
 /*# sourceMappingURL=main.css.map */

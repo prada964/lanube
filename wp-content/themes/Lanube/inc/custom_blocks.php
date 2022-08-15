@@ -26,6 +26,8 @@ function register_acf_block_types()
         'align' => 'full',
         'post_types' => array('post', 'page'),
     ));
+
+    
 }
 
 add_theme_support('align-wide');
