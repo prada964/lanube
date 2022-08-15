@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container-principal">
-        <header class="site-header">
+        <header class="site-header col-12 col-sm-12 col-md-2">
             <div class="content-header">
                 <div class="navigation-bar">
                     <div class="logo">
