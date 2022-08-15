@@ -1,0 +1,41 @@
+
+$url--font: '../fonts/';
+
+$movil: "screen and (max-width : 768px)" !default;
+$desktop-md: "screen and (min-width : 1024px) and (max-width:1365px)" !default;
+$desktop-lg: "screen and (min-width : 1366px) and (max-width:1439px)" !default;
+$desktop-xl: "screen and (min-width : 1440px) and (max-width:1919px)" !default;
+
+$sm: 576px;
+$md :768px;
+$md :992px;
+$lg :1200px;
+$xxl:1400px;
+
+
+/*Colors*/
+$white:#fff;
+$black: #000;
+$main-violet:#410099;
+$blue:#31BEEF;
+$yellow:#FFD040;
+$dark-gray:#5D5D5D;
+$light-grey:#808080;
+$extralight-grey:#AFAFAF;
+
+
+
+
+/* Fonts */
+
+$font-title: "KumbhSans-Bold";
+$font-subtitle:"KumbhSans-SemiBold";
+$font-title-medium:"KumbhSans-Medium";
+$font-light:"KumbhSans-Light";
+$font-extra-light:'KumbhSans-ExtraLight';
+$font-main: "KumbhSans-Regular";
+
+$font-secundary-bold:"SourceCodePro-SemiBold";
+$font-title-secundary:"SourceCodePro-Regular";
+$font-subtitle-secundary: "SourceCodePro-Medium";
+
