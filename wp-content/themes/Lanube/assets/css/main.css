@@ -150,10 +150,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/*menu movil*/
-.container-principal {
-  display: flex;
-}
 @media screen and (max-width : 768px) {
   .container-principal {
     display: block;
@@ -227,8 +223,8 @@
 .container-principal .site-header .content-header .navigation-bar .menu-principal a:hover {
   color: #5D5D5D;
   scale: 1;
-  font-size: 2.8rem;
-  transition: all 0.2s;
+  font-size: 2.5rem;
+  transition: all 0.3s;
   opacity: 1;
 }
 .container-principal .site-header .content-header .icon-networks-header {
@@ -355,27 +351,46 @@ footer .logo-footer img {
   margin: 0;
 }
 
+.title-1 {
+  font-family: "KumbhSans-Medium";
+  color: #000;
+  font-size: 3.6rem;
+  margin: 5rem 5rem 0 0;
+}
+.title-1 strong {
+  color: #410099;
+}
+.title-1 .text-section-two {
+  width: fit-content;
+  border: 1px solid #808080;
+  border-radius: 3rem;
+  padding: 1rem 3rem;
+  margin: 8rem 8rem 0 0;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
 
 body {
-<<<<<<< HEAD
-  background-color: blue;
-=======
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 2;
   font-family: "KumbhSans-Regular";
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
   /* 10px = 1rem*/
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 1rem 0;
   line-height: 1rem 0;
 }
@@ -410,7 +425,10 @@ ul {
 img {
   max-width: 100%;
   height: auto;
->>>>>>> 70d4ceae78f51ee05ca1bb06f83c1b9882910d0d
+}
+
+.container-home {
+  padding: 1rem 16rem;
 }
 
 /*# sourceMappingURL=main.css.map */

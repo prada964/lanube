@@ -3,6 +3,14 @@ jQuery(document).ready( $ =>{
         label:'',
         appendTo:'.icon-networks-header'
     });
+    
+});
+jQuery(document).ready( $ =>{
+  $('.menu-principal .menu').slicknav({
+      label:'',
+   
+  });
+  $
 });
 
 // Slider Logos Clientes

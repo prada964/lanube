@@ -30,7 +30,7 @@ function register_acf_block_types()
         'name'              => 'title_a',
         'title'             => __('Block - Titulos: A '),
         'description'       => __('Podras crear un titulo'),
-        'render_template'   => 'templates/blocks/sliders/slider.php',
+        'render_template'   => 'templates/blocks/titles/title_a.php',
         'category'          => VS_BLOCK_CATEGORY,
         'icon'              => 'feedback',
         'align' => 'full',

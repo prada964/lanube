@@ -7,14 +7,15 @@
  */
 
 ?>
+<?php get_header(); ?>
 
-<div class="">
-    <div class="row">
+<div class="col-md-9">
+    <div class="row container-home">
         <div>
             <?php the_content(); ?>
-            
         </div>
     </div>
+</div>
 </div>
 
 <?php
