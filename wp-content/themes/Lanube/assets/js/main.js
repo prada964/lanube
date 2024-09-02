@@ -1,12 +1,26 @@
-jQuery(document).ready( $ =>{
-    $('.menu-principal .menu').slicknav({
-        label:'',
-        appendTo:'.icon-networks-header'
-    });
+////////////////////
+// Run blocks
+////////////////////
+jQuery(document).ready(function () {
+  jQuery('.title-services').css('background', 'red');
+ });
+////////////////////
+
+jQuery(document).ready(($) => {
+  $('.menu-principal .menu').slicknav({
+    label: '',
+    appendTo: '.icon-networks-header',
+  });
+});
+jQuery(document).ready(($) => {
+  $('.menu-principal .menu').slicknav({
+    label: '',
+  });
+  $;
 });
 
 // Slider Logos Clientes
-jQuery(document).ready($=>{
+jQuery(document).ready(($) => {
   $('.lanube-slider-clientes').slick({
     dots: false,
     infinite: true,

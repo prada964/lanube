@@ -1,4 +1,4 @@
 <?php get_header(); ?>
-    <h1>as</h1>
-</div>
+<h1>as</h1>
+
 <?php get_footer(); ?>
