@@ -55,7 +55,7 @@ function lanube_styles_scripts()
     wp_enqueue_style('lanube-style');
 
     wp_enqueue_script('slicknavjs', get_template_directory_uri() . '/assets/js/jquery.slicknav.min.js', array('jquery'), ASSETS_VERSION, 'all');
-    wp_enqueue_script('mainJs', get_template_directory_uri() . '/assets/js/main.js', array('jquery', 'slicknavjs'), ASSETS_VERSION, 'all');
+    wp_enqueue_script('mainJs', get_template_directory_uri() . '/assets/js/main.js', array(), ASSETS_VERSION, true);
 
 }
 add_action("wp_enqueue_scripts", "lanube_styles_scripts");
